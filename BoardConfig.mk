@@ -19,7 +19,7 @@ include device/sony/rhine-common/BoardConfigCommon.mk
 #-include vendor/sony/amami/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5503,amami
+TARGET_OTA_ASSERT_DEVICE := D5503,amami,anami
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
 
