@@ -1,28 +1,17 @@
-bin/chargemon
-bin/illumination_service
-bin/sensors.qcom
-bin/updatemiscta
+# ACDB
 etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
 etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
 etc/acdbdata/MTP/MTP_Handset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-etc/firmware/touch_module_id_0x45.img
-etc/firmware/touch_module_id_0x48.img
-etc/firmware/touch_module_id_0x4d.img
-etc/firmware/touch_module_id_0x4e.img
-etc/firmware/touch_module_id_0x53.img
-etc/firmware/touch_module_id_0x54.img
-etc/firmware/touch_module_id_0x5d.img
-etc/flashled_calc_parameters.cfg
+
+# Audio
 etc/mixer_paths.xml
-etc/sensor_def_qcomdev.conf
-etc/sensors_calib.conf
-etc/sysmon.cfg
+
+# Camera
+etc/flashled_calc_parameters.cfg
 lib/libcald_hal.so
 lib/libcameralight.so
 lib/libcammw.so
-lib/libsysmon_jni.so
-usr/idc/clearpad.idc
 vendor/camera/flash.dat
 vendor/camera/LGI02BN1_CACAO.dat
 vendor/camera/LGI02BN1.dat
@@ -45,4 +34,32 @@ vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/liboemcamera.so
+
+# Charger
+bin/chargemon
+
+# Illumination
+bin/illumination_service
+
+# Sensors
+bin/sensors.qcom
+etc/sensor_def_qcomdev.conf
+etc/sensors_calib.conf
 vendor/lib/libsensor1.so
+
+# Sysmon
+etc/sysmon.cfg
+lib/libsysmon_jni.so
+
+# TA
+bin/updatemiscta
+
+# Touchscreen
+etc/firmware/touch_module_id_0x45.img
+etc/firmware/touch_module_id_0x48.img
+etc/firmware/touch_module_id_0x4d.img
+etc/firmware/touch_module_id_0x4e.img
+etc/firmware/touch_module_id_0x53.img
+etc/firmware/touch_module_id_0x54.img
+etc/firmware/touch_module_id_0x5d.img
+usr/idc/clearpad.idc
