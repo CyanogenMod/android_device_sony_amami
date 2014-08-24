@@ -15,6 +15,9 @@
 # inherit from the common rhine definitions
 include device/sony/rhine-common/BoardConfigCommon.mk
 
+# give users chance to make his own init.rc for recovery since default one from cm have no working adb in recovery mode.
+BOARD_CUSTOM_BOOTIMG_MK := device/sony/amami/custombootimg.mk
+
 # inherit from the proprietary version
 #-include vendor/sony/amami/BoardConfigVendor.mk
 
