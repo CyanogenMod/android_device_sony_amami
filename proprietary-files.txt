@@ -40,10 +40,6 @@ etc/sensor_def_qcomdev.conf
 etc/sensors_calib.conf
 vendor/lib/libsensor1.so
 
-# Sysmon
-etc/sysmon.cfg
-lib/libsysmon_jni.so
-
 # TA
 bin/updatemiscta
 
