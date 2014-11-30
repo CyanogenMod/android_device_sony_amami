@@ -34,9 +34,6 @@ vendor/lib/liboemcamera.so
 # Charger
 bin/chargemon
 
-# Illumination
-bin/illumination_service
-
 # Sensors
 bin/sensors.qcom
 etc/sensor_def_qcomdev.conf
