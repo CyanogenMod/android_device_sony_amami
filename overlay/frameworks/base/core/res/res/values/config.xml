@@ -37,4 +37,9 @@
     <!-- Device supports LED flashlight -->
     <bool name="config_enableTorch">true</bool>
 
+    <!-- number of supported users -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <!-- enable Multiuser UI -->
+    <bool name="config_enableMultiUserUI">true</bool>
+
 </resources>
