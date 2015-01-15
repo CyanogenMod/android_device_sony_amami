@@ -17,22 +17,16 @@
 
 		<!-- generic cpufreq -->
 		<resource name="cpu0" type="sysfs">/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq</resource>
-		<resource name="cpu1" type="sysfs">/sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq</resource>
-		<resource name="cpu2" type="sysfs">/sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq</resource>
-		<resource name="cpu3" type="sysfs">/sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq</resource>
 
 		<resource name="cpu" type="union">
 			<resource name="cpu0" />
-			<resource name="cpu1" />
-			<resource name="cpu2" />
-			<resource name="cpu3" />
 		</resource>
 
 		<!-- device-specific -->
 		<resource name="backlight" type="sysfs">/sys/class/leds/wled:backlight/max_brightness</resource>
 
-		<resource name="temp-emmc" type="msm-adc">/sys/devices/qpnp-vadc-eed0ec00/emmc_therm</resource>
-		<resource name="temp-batt" type="msm-adc">/sys/devices/qpnp-vadc-eed0ec00/batt_therm</resource>
+		<resource name="temp-emmc" type="msm-adc">/sys/devices/00-vadc-3100/emmc_therm</resource>
+		<resource name="temp-batt" type="msm-adc">/sys/devices/00-vadc-3100/batt_therm</resource>
 		<resource name="kgsl-3d0" type="sysfs">/sys/class/kgsl/kgsl-3d0/max_gpuclk</resource>
 		<resource name="dc" type="sysfs">/sys/class/power_supply/qpnp-dc/current_max</resource>
 		<resource name="usb" type="sysfs">/sys/class/power_supply/usb/current_system_max</resource>
