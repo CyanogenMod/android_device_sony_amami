@@ -51,4 +51,5 @@ etc/firmware/touch_module_id_0x4e.img
 etc/firmware/touch_module_id_0x53.img
 etc/firmware/touch_module_id_0x54.img
 etc/firmware/touch_module_id_0x5d.img
+lib/touchfilter/tftype4.so
 usr/idc/clearpad.idc
