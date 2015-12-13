@@ -26,7 +26,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/amami/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_rhine_amami_row_defconfig
+TARGET_KERNEL_CONFIG := cm_rhine_amami_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
@@ -36,5 +36,5 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2436890624
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12891175936
 
-#Recovery
+# Recovery
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
