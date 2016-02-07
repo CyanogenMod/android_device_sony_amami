@@ -1,0 +1,9 @@
+etc/acdbdata/Handset_cal.acdb
+etc/acdbdata/Speaker_cal.acdb
+etc/firmware/touch_module_id_0x45.img
+etc/firmware/touch_module_id_0x48.img
+etc/firmware/touch_module_id_0x4d.img
+etc/firmware/touch_module_id_0x4e.img
+etc/firmware/touch_module_id_0x53.img
+etc/firmware/touch_module_id_0x54.img
+etc/firmware/touch_module_id_0x5d.img

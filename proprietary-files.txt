@@ -1,27 +1,2 @@
-# ACDB
-etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
-etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
-etc/acdbdata/MTP/MTP_Handset_cal.acdb
-etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-
-# Charger
-bin/chargemon
-
-# Sensors
-bin/sensors.qcom
-etc/sensor_def_qcomdev.conf
-etc/sensors_calib.conf
-vendor/lib/libsensor1.so
-
-# TA
-bin/updatemiscta
-
 # Touchscreen
-etc/firmware/touch_module_id_0x45.img
-etc/firmware/touch_module_id_0x48.img
-etc/firmware/touch_module_id_0x4d.img
-etc/firmware/touch_module_id_0x4e.img
-etc/firmware/touch_module_id_0x53.img
-etc/firmware/touch_module_id_0x54.img
-etc/firmware/touch_module_id_0x5d.img
 usr/idc/clearpad.idc
