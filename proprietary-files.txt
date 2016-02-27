@@ -1,2 +1,0 @@
-# Touchscreen
-usr/idc/clearpad.idc
